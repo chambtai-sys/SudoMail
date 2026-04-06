@@ -1,1 +1,9 @@
-bm9kZV9tb2R1bGVzLwoqLmVtbAohZXhhbXBsZXMvKi5lbWwKLkRTX1N0b3JlCi5lbnYKZGlzdC8KY292ZXJhZ2UvCioubG9nCg==
+node_modules/
+*.eml
+!examples/output/*.eml
+.DS_Store
+.env
+dist/
+coverage/
+*.log
+test-output.eml
