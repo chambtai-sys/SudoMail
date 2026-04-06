@@ -1,1 +1,26 @@
-ewogICJuYW1lIjogInN1ZG9tYWlsIiwKICAidmVyc2lvbiI6ICIxLjAuMCIsCiAgImRlc2NyaXB0aW9uIjogIvCfk6cgQSBwb3dlcmZ1bCBDTEkgdG9vbCBmb3IgY3JlYXRpbmcsIGNvbXBvc2luZywgYW5kIGV4cG9ydGluZyAuZW1sIGVtYWlsIGZpbGVzIHdpdGggZnVsbCBNSU1FIHN1cHBvcnQuIiwKICAibWFpbiI6ICJzcmMvaW5kZXguanMiLAogICJiaW4iOiB7CiAgICAic3Vkb21haWwiOiAiLi9iaW4vc3Vkb21haWwuanMiCiAgfSwKICAic2NyaXB0cyI6IHsKICAgICJzdGFydCI6ICJub2RlIGJpbi9zdWRvbWFpbC5qcyIsCiAgICAidGVzdCI6ICJub2RlIHRlc3Qvc3Vkb21haWwudGVzdC5qcyIKICB9LAogICJrZXl3b3JkcyI6IFsiZW1haWwiLCAiZW1sIiwgImNsaSIsICJtaW1lIiwgImNvbXBvc2VyIiwgIm1haWwtY3JlYXRvciIsICJzdWRvbWFpbCJdLAogICJhdXRob3IiOiAiY2hhbWJ0YWktc3lzIiwKICAibGljZW5zZSI6ICJNSVQiLAogICJkZXBlbmRlbmNpZXMiOiB7CiAgICAiY2hhbGsiOiAiXjQuMS4yIiwKICAgICJjb21tYW5kZXIiOiAiXjExLjAuMCIsCiAgICAiaW5xdWlyZXIiOiAiXjguMi42IiwKICAgICJtaW1lLXR5cGVzIjogIl4yLjEuMzUiLAogICAgInV1aWQiOiAiXjkuMC4wIgogIH0sCiAgImVuZ2luZXMiOiB7CiAgICAibm9kZSI6ICI+PTE0LjAuMCIKICB9Cn0K
+{
+  "name": "sudomail",
+  "version": "1.0.0",
+  "description": "📧 A powerful CLI tool for creating, composing, and exporting .eml email files with full MIME support.",
+  "main": "src/index.js",
+  "bin": {
+    "sudomail": "./bin/sudomail.js"
+  },
+  "scripts": {
+    "start": "node bin/sudomail.js",
+    "test": "node test/sudomail.test.js"
+  },
+  "keywords": ["email", "eml", "cli", "mime", "composer", "mail-creator", "sudomail"],
+  "author": "chambtai-sys",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.0.0",
+    "inquirer": "^8.2.6",
+    "mime-types": "^2.1.35",
+    "uuid": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
