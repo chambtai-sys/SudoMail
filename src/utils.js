@@ -1,1 +1,69 @@
-LyoqCiAqIFN1ZG9NYWlsIOKAlCB1dGlscy5qcwogKiBTaGFyZWQgaGVscGVyIHV0aWxpdGllcwogKi8KCmNvbnN0IHsgdjQ6IHV1aWR2NCB9ID0gcmVxdWlyZSgndXVpZCcpOwoKLyoqCiAqIEdlbmVyYXRlIGEgdW5pcXVlIE1lc3NhZ2UtSUQgZm9yIGFuIGVtYWlsLgogKiBAcmV0dXJucyB7c3RyaW5nfQogKi8KZnVuY3Rpb24gZ2VuZXJhdGVNZXNzYWdlSWQoKSB7CiAgcmV0dXJuIGA8JHt1dWlkdjQoKX1Ac3Vkb21haWw+YDsKfQoKLyoqCiAqIEZvcm1hdCBhIERhdGUgb2JqZWN0IHRvIFJGQyAyODIyIGRhdGUgc3RyaW5nLgogKiBAcGFyYW0ge0RhdGV9IFtkYXRlPW5ldyBEYXRlKCldCiAqIEByZXR1cm5zIHtzdHJpbmd9CiAqLwpmdW5jdGlvbiBmb3JtYXREYXRlKGRhdGUgPSBuZXcgRGF0ZSgpKSB7CiAgcmV0dXJuIGRhdGUudG9VVENTdHJpbmcoKS5yZXBsYWNlKCdHTVQnLCAnKzAwMDAnKTsKfQoKLyoqCiAqIEVuY29kZSBhIHN0cmluZyB0byBiYXNlNjQgKGZvciBNSU1FIGVuY29kaW5nKS4KICogQHBhcmFtIHtzdHJpbmd8QnVmZmVyfSBjb250ZW50CiAqIEByZXR1cm5zIHtzdHJpbmd9CiAqLwpmdW5jdGlvbiB0b0Jhc2U2NChjb250ZW50KSB7CiAgcmV0dXJuIEJ1ZmZlci5mcm9tKGNvbnRlbnQpLnRvU3RyaW5nKCdiYXNlNjQnKTsKfQoKLyoqCiAqIFdyYXAgYSBiYXNlNjQgc3RyaW5nIGF0IDc2IGNoYXJhY3RlcnMgcGVyIGxpbmUgKE1JTUUgc3BlYykuCiAqIEBwYXJhbSB7c3RyaW5nfSBiNjQKICogQHJldHVybnMge3N0cmluZ30KICovCmZ1bmN0aW9uIHdyYXBCYXNlNjQoYjY0KSB7CiAgcmV0dXJuIGI2NC5tYXRjaCgvLnsxLDc2fS9nKS5qb2luKCdcclxuJyk7Cn0KCi8qKgogKiBWYWxpZGF0ZSBhbiBlbWFpbCBhZGRyZXNzIGZvcm1hdC4KICogQHBhcmFtIHtzdHJpbmd9IGVtYWlsCiAqIEByZXR1cm5zIHtib29sZWFufQogKi8KZnVuY3Rpb24gaXNWYWxpZEVtYWlsKGVtYWlsKSB7CiAgcmV0dXJuIC9eW15cc0BdK0BbXlxzQF0rXC5bXlxzQF0rJC8udGVzdChlbWFpbCk7Cn0KCi8qKgogKiBQYXJzZSBhIGNvbW1hLXNlcGFyYXRlZCBsaXN0IG9mIGVtYWlscyBpbnRvIGFuIGFycmF5LgogKiBAcGFyYW0ge3N0cmluZ30gaW5wdXQKICogQHJldHVybnMge3N0cmluZ1tdfQogKi8KZnVuY3Rpb24gcGFyc2VFbWFpbExpc3QoaW5wdXQpIHsKICBpZiAoIWlucHV0KSByZXR1cm4gW107CiAgcmV0dXJuIGlucHV0LnNwbGl0KCcsJykubWFwKGUgPT4gZS50cmltKCkpLmZpbHRlcihCb29sZWFuKTsKfQoKbW9kdWxlLmV4cG9ydHMgPSB7CiAgZ2VuZXJhdGVNZXNzYWdlSWQsCiAgZm9ybWF0RGF0ZSwKICB0b0Jhc2U2NCwKICB3cmFwQmFzZTY0LAogIGlzVmFsaWRFbWFpbCwKICBwYXJzZUVtYWlsTGlzdCwKfTsK
+/**
+ * SudoMail — utils.js
+ * Shared helper utilities
+ */
+
+const { v4: uuidv4 } = require('uuid');
+
+/**
+ * Generate a unique Message-ID for an email.
+ * @returns {string}
+ */
+function generateMessageId() {
+  return `<${uuidv4()}@sudomail>`;
+}
+
+/**
+ * Format a Date object to RFC 2822 date string.
+ * @param {Date} [date=new Date()]
+ * @returns {string}
+ */
+function formatDate(date = new Date()) {
+  return date.toUTCString().replace('GMT', '+0000');
+}
+
+/**
+ * Encode a string to base64 (for MIME encoding).
+ * @param {string|Buffer} content
+ * @returns {string}
+ */
+function toBase64(content) {
+  return Buffer.from(content).toString('base64');
+}
+
+/**
+ * Wrap a base64 string at 76 characters per line (MIME spec).
+ * @param {string} b64
+ * @returns {string}
+ */
+function wrapBase64(b64) {
+  return b64.match(/.{1,76}/g).join('\r\n');
+}
+
+/**
+ * Validate an email address format.
+ * @param {string} email
+ * @returns {boolean}
+ */
+function isValidEmail(email) {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+}
+
+/**
+ * Parse a comma-separated list of emails into an array.
+ * @param {string} input
+ * @returns {string[]}
+ */
+function parseEmailList(input) {
+  if (!input) return [];
+  return input.split(',').map(e => e.trim()).filter(Boolean);
+}
+
+module.exports = {
+  generateMessageId,
+  formatDate,
+  toBase64,
+  wrapBase64,
+  isValidEmail,
+  parseEmailList,
+};
