@@ -1,1 +1,109 @@
-LyoqCiAqIFN1ZG9NYWlsIOKAlCB0ZW1wbGF0ZXMuanMKICogQnVpbHQtaW4gZW1haWwgdGVtcGxhdGVzCiAqLwoKY29uc3QgVEVNUExBVEVTID0gewogIHBsYWluOiB7CiAgICBuYW1lOiAnUGxhaW4gVGV4dCcsCiAgICBkZXNjcmlwdGlvbjogJ0Egc2ltcGxlIHBsYWluIHRleHQgZW1haWwnLAogICAgc3ViamVjdDogJ0hlbGxvIGZyb20gU3Vkb01haWwnLAogICAgYm9keTogJ1RoaXMgZW1haWwgd2FzIGNvbXBvc2VkIHVzaW5nIFN1ZG9NYWlsLlxuXG5CZXN0IHJlZ2FyZHMsXG5TdWRvTWFpbCcsCiAgICBodG1sOiBudWxsLAogIH0sCgogIGh0bWw6IHsKICAgIG5hbWU6ICdCYXNpYyBIVE1MJywKICAgIGRlc2NyaXB0aW9uOiAnQSBzaW1wbGUgSFRNTCBlbWFpbCB3aXRoIGEgZ3JlZXRpbmcnLAogICAgc3ViamVjdDogJ0hlbGxvIGZyb20gU3Vkb01haWwnLAogICAgYm9keTogJ1RoaXMgZW1haWwgd2FzIGNvbXBvc2VkIHVzaW5nIFN1ZG9NYWlsLicsCiAgICBodG1sOiBgPCFET0NUWVBFIGh0bWw+CjxodG1sPgo8aGVhZD4KICA8bWV0YSBjaGFyc2V0PSJVVEYtOCI+CiAgPHN0eWxlPgogICAgYm9keSB7IGZvbnQtZmFtaWx5OiBBcmlhbCwgc2Fucy1zZXJpZjsgbWF4LXdpZHRoOiA2MDBweDsgbWFyZ2luOiA0MHB4IGF1dG87IGNvbG9yOiAjMzMzOyB9CiAgICBoMSB7IGNvbG9yOiAjMmI2Y2IwOyB9CiAgICAuZm9vdGVyIHsgbWFyZ2luLXRvcDogNDBweDsgZm9udC1zaXplOiAxMnB4OyBjb2xvcjogIzk5OTsgfQogIDwvc3R5bGU+CjwvaGVhZD4KPGJvZHk+CiAgPGgxPkhlbGxvIGZyb20gU3Vkb01haWwhIPCfk6c8L2gxPgogIDxwPlRoaXMgZW1haWwgd2FzIGNvbXBvc2VkIHVzaW5nIDxzdHJvbmc+U3Vkb01haWw8L3N0cm9uZz4g4oCUIHRoZSBDTEkgZW1haWwgZmlsZSBjcmVhdG9yLjwvcD4KICA8ZGl2IGNsYXNzPSJmb290ZXIiPlNlbnQgd2l0aCBTdWRvTWFpbCAmbWlkZG90OyA8YSBocmVmPSJodHRwczovL2dpdGh1Yi5jb20vY2hhbWJ0YWktc3lzL1N1ZG9NYWlsIj5HaXRIdWI8L2E+PC9kaXY+CjwvYm9keT4KPC9odG1sPmAsCiAgfSwKCiAgbmV3c2xldHRlcjogewogICAgbmFtZTogJ05ld3NsZXR0ZXInLAogICAgZGVzY3JpcHRpb246ICdBIHN0eWxlZCBuZXdzbGV0dGVyLXN0eWxlIEhUTUwgZW1haWwnLAogICAgc3ViamVjdDogJ/Cfk7AgWW91ciBTdWRvTWFpbCBOZXdzbGV0dGVyJywKICAgIGJvZHk6ICdZb3VyIHdlZWtseSBuZXdzbGV0dGVyIGlzIGhlcmUuIFZpZXcgaW4gSFRNTCBmb3IgdGhlIGJlc3QgZXhwZXJpZW5jZS4nLAogICAgaHRtbDogYDwhRE9DVFlQRSBodG1sPgo8aHRtbD4KPGhlYWQ+CiAgPG1ldGEgY2hhcnNldD0iVVRGLTgiPgogIDxzdHlsZT4KICAgIGJvZHkgeyBiYWNrZ3JvdW5kOiAjZjRmNGY0OyBmb250LWZhbWlseTogQXJpYWwsIHNhbnMtc2VyaWY7IG1hcmdpbjogMDsgcGFkZGluZzogMDsgfQogICAgLmNvbnRhaW5lciB7IG1heC13aWR0aDogNjAwcHg7IG1hcmdpbjogMzBweCBhdXRvOyBiYWNrZ3JvdW5kOiAjZmZmOyBib3JkZXItcmFkaXVzOiA4cHg7IG92ZXJmbG93OiBoaWRkZW47IGJveC1zaGFkb3c6IDAgMnB4IDhweCByZ2JhKDAsMCwwLDAuMSk7IH0KICAgIC5oZWFkZXIgeyBiYWNrZ3JvdW5kOiAjMmI2Y2IwOyBjb2xvcjogI2ZmZjsgcGFkZGluZzogMzJweDsgdGV4dC1hbGlnbjogY2VudGVyOyB9CiAgICAuaGVhZGVyIGgxIHsgbWFyZ2luOiAwOyBmb250LXNpemU6IDI4cHg7IH0KICAgIC5jb250ZW50IHsgcGFkZGluZzogMzJweDsgY29sb3I6ICMzMzM7IGxpbmUtaGVpZ2h0OiAxLjY7IH0KICAgIC5jdGEgeyBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7IG1hcmdpbi10b3A6IDE2cHg7IHBhZGRpbmc6IDEycHggMjhweDsgYmFja2dyb3VuZDogIzJiNmNiMDsgY29sb3I6ICNmZmY7IGJvcmRlci1yYWRpdXM6IDRweDsgdGV4dC1kZWNvcmF0aW9uOiBub25lOyBmb250LXdlaWdodDogYm9sZDsgfQogICAgLmZvb3RlciB7IGJhY2tncm91bmQ6ICNmNGY0ZjQ7IHBhZGRpbmc6IDE2cHg7IHRleHQtYWxpZ246IGNlbnRlcjsgZm9udC1zaXplOiAxMnB4OyBjb2xvcjogIzk5OTsgfQogIDwvc3R5bGU+CjwvaGVhZD4KPGJvZHk+CiAgPGRpdiBjbGFzcz0iY29udGFpbmVyIj4KICAgIDxkaXYgY2xhc3M9ImhlYWRlciI+CiAgICAgIDxoMT7wn5OwIFN1ZG9NYWlsIE5ld3NsZXR0ZXI8L2gxPgogICAgICA8cD5Zb3VyIHdlZWtseSB1cGRhdGUgaXMgaGVyZTwvcD4KICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0iY29udGVudCI+CiAgICAgIDxoMj5XaGF0J3MgTmV3PzwvaDI+CiAgICAgIDxwPldlbGNvbWUgdG8gdGhpcyB3ZWVrJ3MgZWRpdGlvbiEgSGVyZSdzIGV2ZXJ5dGhpbmcgeW91IG5lZWQgdG8ga25vdy4uLjwvcD4KICAgICAgPHA+TG9yZW0gaXBzdW0gZG9sb3Igc2l0IGFtZXQsIGNvbnNlY3RldHVyIGFkaXBpc2NpbmcgZWxpdC4gU2VkIGRvIGVpdXNtb2QgdGVtcG9yIGluY2lkaWR1bnQgdXQgbGFib3JlIGV0IGRvbG9yZSBtYWduYSBhbGlxdWEuPC9wPgogICAgICA8YSBocmVmPSIjIiBjbGFzcz0iY3RhIj5SZWFkIE1vcmUg4oaSPC9hPgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJmb290ZXIiPgogICAgICBZb3UncmUgcmVjZWl2aW5nIHRoaXMgYmVjYXVzZSB5b3Ugc3Vic2NyaWJlZC4gJm1pZGRvdDsgPGEgaHJlZj0iIyI+VW5zdWJzY3JpYmU8L2E+CiAgICA8L2Rpdj4KICA8L2Rpdj4KPC9ib2R5Pgo8L2h0bWw+YCwKICB9LAoKICB3ZWxjb21lOiB7CiAgICBuYW1lOiAnV2VsY29tZSBFbWFpbCcsCiAgICBkZXNjcmlwdGlvbjogJ0EgdXNlciBvbmJvYXJkaW5nIC8gd2VsY29tZSBlbWFpbCcsCiAgICBzdWJqZWN0OiAn8J+RiyBXZWxjb21lIGFib2FyZCEnLAogICAgYm9keTogJ1dlbGNvbWUhIFdlIGFyZSB0aHJpbGxlZCB0byBoYXZlIHlvdS4nLAogICAgaHRtbDogYDwhRE9DVFlQRSBodG1sPgo8aHRtbD4KPGhlYWQ+CiAgPG1ldGEgY2hhcnNldD0iVVRGLTgiPgogIDxzdHlsZT4KICAgIGJvZHkgeyBmb250LWZhbWlseTogQXJpYWwsIHNhbnMtc2VyaWY7IGJhY2tncm91bmQ6ICNmOWY5Zjk7IHBhZGRpbmc6IDQwcHg7IH0KICAgIC5jYXJkIHsgbWF4LXdpZHRoOiA1NjBweDsgbWFyZ2luOiBhdXRvOyBiYWNrZ3JvdW5kOiAjZmZmOyBib3JkZXItcmFkaXVzOiAxMHB4OyBwYWRkaW5nOiA0MHB4OyBib3gtc2hhZG93OiAwIDJweCAxMHB4IHJnYmEoMCwwLDAsMC4wOCk7IH0KICAgIGgxIHsgY29sb3I6ICMxYTIwMmM7IH0KICAgIC5lbW9qaSB7IGZvbnQtc2l6ZTogNDhweDsgdGV4dC1hbGlnbjogY2VudGVyOyBkaXNwbGF5OiBibG9jazsgbWFyZ2luLWJvdHRvbTogMTZweDsgfQogICAgcCB7IGNvbG9yOiAjNGE1NTY4OyBsaW5lLWhlaWdodDogMS44OyB9CiAgICAuYnRuIHsgZGlzcGxheTogaW5saW5lLWJsb2NrOyBtYXJnaW4tdG9wOiAyMHB4OyBwYWRkaW5nOiAxNHB4IDMycHg7IGJhY2tncm91bmQ6ICM0OGJiNzg7IGNvbG9yOiAjZmZmOyBib3JkZXItcmFkaXVzOiA2cHg7IHRleHQtZGVjb3JhdGlvbjogbm9uZTsgZm9udC13ZWlnaHQ6IGJvbGQ7IH0KICA8L3N0eWxlPgo8L2hlYWQ+Cjxib2R5PgogIDxkaXYgY2xhc3M9ImNhcmQiPgogICAgPHNwYW4gY2xhc3M9ImVtb2ppIj7wn46JPC9zcGFuPgogICAgPGgxPldlbGNvbWUgYWJvYXJkITwvaDE+CiAgICA8cD5XZSdyZSBzbyBleGNpdGVkIHRvIGhhdmUgeW91IHdpdGggdXMuIFlvdXIgYWNjb3VudCBpcyBhbGwgc2V0IGFuZCByZWFkeSB0byBnby48L3A+CiAgICA8cD5DbGljayB0aGUgYnV0dG9uIGJlbG93IHRvIGdldCBzdGFydGVkIGFuZCBleHBsb3JlIGV2ZXJ5dGhpbmcgd2UgaGF2ZSB0byBvZmZlci48L3A+CiAgICA8YSBocmVmPSIjIiBjbGFzcz0iYnRuIj5HZXQgU3RhcnRlZCDihpI8L2E+CiAgPC9kaXY+CjwvYm9keT4KPC9odG1sPmAsCiAgfSwKfTsKCi8qKgogKiBMaXN0IGFsbCBhdmFpbGFibGUgdGVtcGxhdGVzLgogKiBAcmV0dXJucyB7T2JqZWN0W119CiAqLwpmdW5jdGlvbiBsaXN0VGVtcGxhdGVzKCkgewogIHJldHVybiBPYmplY3QuZW50cmllcyhURU1QTEFURVMpLm1hcCgoW2tleSwgdF0pID0+ICh7CiAgICBrZXksCiAgICBuYW1lOiB0Lm5hbWUsCiAgICBkZXNjcmlwdGlvbjogdC5kZXNjcmlwdGlvbiwKICB9KSk7Cn0KCi8qKgogKiBHZXQgYSB0ZW1wbGF0ZSBieSBrZXkuCiAqIEBwYXJhbSB7c3RyaW5nfSBrZXkKICogQHJldHVybnMge09iamVjdHxudWxsfQogKi8KZnVuY3Rpb24gZ2V0VGVtcGxhdGUoa2V5KSB7CiAgcmV0dXJuIFRFTVBMQVRFU1trZXldIHx8IG51bGw7Cn0KCm1vZHVsZS5leHBvcnRzID0geyBsaXN0VGVtcGxhdGVzLCBnZXRUZW1wbGF0ZSwgVEVNUExBVEVTIH07Cg==
+/**
+ * SudoMail — templates.js
+ * Built-in email templates
+ */
+
+const TEMPLATES = {
+  plain: {
+    name: 'Plain Text',
+    description: 'A simple plain text email',
+    subject: 'Hello from SudoMail',
+    body: 'This email was composed using SudoMail.\n\nBest regards,\nSudoMail',
+    html: null,
+  },
+
+  html: {
+    name: 'Basic HTML',
+    description: 'A simple HTML email with a greeting',
+    subject: 'Hello from SudoMail',
+    body: 'This email was composed using SudoMail.',
+    html: `<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 600px; margin: 40px auto; color: #333; }
+    h1 { color: #2b6cb0; }
+    .footer { margin-top: 40px; font-size: 12px; color: #999; }
+  </style>
+</head>
+<body>
+  <h1>Hello from SudoMail! 📧</h1>
+  <p>This email was composed using <strong>SudoMail</strong> — the CLI email file creator.</p>
+  <div class="footer">Sent with SudoMail · <a href="https://github.com/chambtai-sys/SudoMail">GitHub</a></div>
+</body>
+</html>`,
+  },
+
+  newsletter: {
+    name: 'Newsletter',
+    description: 'A styled newsletter-style HTML email',
+    subject: '📰 Your SudoMail Newsletter',
+    body: 'Your weekly newsletter is here. View in HTML for the best experience.',
+    html: `<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { background:#f4f4f4; font-family:Arial,sans-serif; margin:0; padding:0; }
+    .container { max-width:600px; margin:30px auto; background:#fff; border-radius:8px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.1); }
+    .header { background:#2b6cb0; color:#fff; padding:32px; text-align:center; }
+    .header h1 { margin:0; font-size:28px; }
+    .content { padding:32px; color:#333; line-height:1.6; }
+    .cta { display:inline-block; margin-top:16px; padding:12px 28px; background:#2b6cb0; color:#fff; border-radius:4px; text-decoration:none; font-weight:bold; }
+    .footer { background:#f4f4f4; padding:16px; text-align:center; font-size:12px; color:#999; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header"><h1>📰 SudoMail Newsletter</h1><p>Your weekly update is here</p></div>
+    <div class="content">
+      <h2>What's New?</h2>
+      <p>Welcome to this week's edition! Here's everything you need to know.</p>
+      <a href="#" class="cta">Read More →</a>
+    </div>
+    <div class="footer">You're receiving this because you subscribed. · <a href="#">Unsubscribe</a></div>
+  </div>
+</body>
+</html>`,
+  },
+
+  welcome: {
+    name: 'Welcome Email',
+    description: 'A user onboarding / welcome email',
+    subject: '👋 Welcome aboard!',
+    body: 'Welcome! We are thrilled to have you.',
+    html: `<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { font-family:Arial,sans-serif; background:#f9f9f9; padding:40px; }
+    .card { max-width:560px; margin:auto; background:#fff; border-radius:10px; padding:40px; box-shadow:0 2px 10px rgba(0,0,0,0.08); }
+    h1 { color:#1a202c; }
+    .emoji { font-size:48px; text-align:center; display:block; margin-bottom:16px; }
+    p { color:#4a5568; line-height:1.8; }
+    .btn { display:inline-block; margin-top:20px; padding:14px 32px; background:#48bb78; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <span class="emoji">🎉</span>
+    <h1>Welcome aboard!</h1>
+    <p>We're so excited to have you with us. Your account is all set and ready to go.</p>
+    <a href="#" class="btn">Get Started →</a>
+  </div>
+</body>
+</html>`,
+  },
+};
+
+function listTemplates() {
+  return Object.entries(TEMPLATES).map(([key, t]) => ({ key, name: t.name, description: t.description }));
+}
+
+function getTemplate(key) {
+  return TEMPLATES[key] || null;
+}
+
+module.exports = { listTemplates, getTemplate, TEMPLATES };
