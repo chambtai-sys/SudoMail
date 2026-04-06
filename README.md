@@ -1,1 +1,264 @@
-PGRpdiBhbGlnbj0iY2VudGVyIj4KCmBgYAogX19fXyAgICAgICAgICAgIF8gICAgICAgX18gIF9fICAgICAgIF8gXyAKLyBfX198IF8gICBfICBfX3wgfCBfX18gfCAgXC8gIHwgX18gXyhfKSB8ClxfX18gXHwgfCB8IHwvIF9gIHwvIF8gXHwgfFwvfCB8LyBfYCB8IHwgfAogX19fKSB8IHxffCB8IChffCB8IChfKSB8IHwgIHwgfCAoX3wgfCB8IHwKfF9fX18vIFxfXyxffFxfXyxffFxfX18vfF98ICB8X3xcX18sX3xffF98CmBgYAoKIyBTdWRvTWFpbCDwn5OnCgoqKkEgcG93ZXJmdWwsIGRldmVsb3Blci1mcmllbmRseSBDTEkgdG9vbCBmb3IgY3JlYXRpbmcgYW5kIGV4cG9ydGluZyBgLmVtbGAgZW1haWwgZmlsZXMgd2l0aCBmdWxsIE1JTUUgc3VwcG9ydC4qKgoKWyFbTGljZW5zZTogTUlUXShodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL0xpY2Vuc2UtTUlULXllbGxvdy5zdmcpXShMSUNFTlNFKQpbIVtOb2RlLmpzXShodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL05vZGUuanMtJTNFJTNEMTQuMC4wLWdyZWVuLnN2ZyldKGh0dHBzOi8vbm9kZWpzLm9yZy8pClshW1ZlcnNpb25dKGh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvdmVyc2lvbi0xLjAuMC1ibHVlLnN2ZyldKHBhY2thZ2UuanNvbikKCjwvZGl2PgoKLS0tCgojIyDinKggV2hhdCBpcyBTdWRvTWFpbD8KClN1ZG9NYWlsIGlzIGEgQ0xJIHRvb2wgdGhhdCBsZXRzIHlvdSAqKmNvbXBvc2UsIGNyYWZ0LCBhbmQgZXhwb3J0IGVtYWlsIGZpbGVzKiogKGAuZW1sYCkgZGlyZWN0bHkgZnJvbSB5b3VyIHRlcm1pbmFsIOKAlCBubyBtYWlsIHNlcnZlciwgbm8gR1VJLCBubyBoYXNzbGUuCgpXaGV0aGVyIHlvdSdyZSB0ZXN0aW5nIGVtYWlsIHJlbmRlcmluZywgYXJjaGl2aW5nIG1lc3NhZ2VzLCBnZW5lcmF0aW5nIGVtYWlsIGZpeHR1cmVzIGZvciB5b3VyIGFwcCwgb3IganVzdCB3YW50IGEgcXVpY2sgd2F5IHRvIGRyYWZ0IGVtYWlscyBvZmZsaW5lIOKAlCAqKlN1ZG9NYWlsIGhhcyB5b3UgY292ZXJlZCoqLgoKLS0tCgojIyDwn5qAIEZlYXR1cmVzCgp8IEZlYXR1cmUgfCBEZXNjcmlwdGlvbiB8CnwtLS18LS0tfAp8IPCfk50gKipJbnRlcmFjdGl2ZSBNb2RlKiogfCBTdGVwLWJ5LXN0ZXAgcHJvbXB0cyBndWlkZSB5b3UgdGhyb3VnaCBjb21wb3NpbmcgYW4gZW1haWwgfAp8IOKaoSAqKkZsYWdzIE1vZGUqKiB8IFBhc3MgYWxsIGZpZWxkcyBhcyBDTEkgZmxhZ3MgZm9yIHNjcmlwdGluZyBhbmQgYXV0b21hdGlvbiB8Cnwg8J+OqCAqKkhUTUwgRW1haWwgU3VwcG9ydCoqIHwgQ29tcG9zZSByaWNoIEhUTUwgZW1haWxzIHdpdGggaW5saW5lIHN0eWxlcyB8Cnwg8J+TjiAqKkF0dGFjaG1lbnRzKiogfCBBdHRhY2ggZmlsZXMgdXNpbmcgTUlNRSBlbmNvZGluZyB8Cnwg8J+TiyAqKlRlbXBsYXRlcyoqIHwgVXNlIGJ1aWx0LWluIHRlbXBsYXRlcyAocGxhaW4sIEhUTUwsIG5ld3NsZXR0ZXIpIHwKfCDwn5SAICoqQ0MgLyBCQ0MqKiB8IEZ1bGwgc3VwcG9ydCBmb3IgbXVsdGlwbGUgcmVjaXBpZW50cywgQ0MsIGFuZCBCQ0MgfAp8IPCfl5PvuI8gKipBdXRvIFRpbWVzdGFtcCoqIHwgQXV0b21hdGljYWxseSBzdGFtcHMgdGhlIGNvcnJlY3QgUkZDIDI4MjIgZGF0ZSB8Cnwg8J+GlCAqKk1lc3NhZ2UtSUQqKiB8IEdlbmVyYXRlcyB1bmlxdWUgTWVzc2FnZS1JRHMgZm9yIGV2ZXJ5IGVtYWlsIHwKfCDwn5OBICoqQ3VzdG9tIE91dHB1dCoqIHwgU2F2ZSB0byBhbnkgcGF0aCB5b3UgY2hvb3NlIHwKCi0tLQoKIyMg8J+TpiBJbnN0YWxsYXRpb24KCmBgYGJhc2gKIyBDbG9uZSB0aGUgcmVwb3NpdG9yeQpnaXQgY2xvbmUgaHR0cHM6Ly9naXRodWIuY29tL2NoYW1idGFpLXN5cy9TdWRvTWFpbC5naXQKY2QgU3Vkb01haWwKCiMgSW5zdGFsbCBkZXBlbmRlbmNpZXMKbnBtIGluc3RhbGwKCiMgTGluayBnbG9iYWxseSAob3B0aW9uYWwg4oCUIGVuYWJsZXMgdGhlIGBzdWRvbWFpbGAgY29tbWFuZCBhbnl3aGVyZSkKbnBtIGxpbmsKYGBgCgotLS0KCiMjIPCflKcgVXNhZ2UKCiMjIyBJbnRlcmFjdGl2ZSBNb2RlIChyZWNvbW1lbmRlZCBmb3IgZmlyc3QtdGltZXJzKQoKYGBgYmFzaApzdWRvbWFpbApgYGAKClN1ZG9NYWlsIHdpbGwgcHJvbXB0IHlvdSBmb3IgZWFjaCBmaWVsZDoKCmBgYAo/IEZyb206ICAgIHlvdUBleGFtcGxlLmNvbQo/IFRvOiAgICAgIGZyaWVuZEBleGFtcGxlLmNvbQo/IFN1YmplY3Q6IEhlbGxvIGZyb20gU3Vkb01haWwhCj8gQm9keTogICAgSnVzdCB0ZXN0aW5nIG91dCBTdWRvTWFpbC4gV29ya3MgZ3JlYXQhCj8gRm9ybWF0OiAgUGxhaW4gVGV4dAo/IE91dHB1dDogIC4vb3V0cHV0L2hlbGxvLmVtbApgYGAKCi0tLQoKIyMjIEZsYWdzIE1vZGUgKGdyZWF0IGZvciBzY3JpcHRpbmcpCgpgYGBiYXNoCnN1ZG9tYWlsIGNvbXBvc2UgXAogIC0tZnJvbSAieW91QGV4YW1wbGUuY29tIiBcCiAgLS10byAiZnJpZW5kQGV4YW1wbGUuY29tIiBcCiAgLS1zdWJqZWN0ICJIZWxsbyBmcm9tIFN1ZG9NYWlsISIgXAogIC0tYm9keSAiVGhpcyBlbWFpbCB3YXMgZ2VuZXJhdGVkIGJ5IFN1ZG9NYWlsLiIgXAogIC0tb3V0cHV0IC4vZW1haWxzL2hlbGxvLmVtbApgYGAKCi0tLQoKIyMjIEhUTUwgRW1haWwKCmBgYGJhc2gKc3Vkb21haWwgY29tcG9zZSBcCiAgLS1mcm9tICJuZXdzbGV0dGVyQGV4YW1wbGUuY29tIiBcCiAgLS10byAic3Vic2NyaWJlckBleGFtcGxlLmNvbSIgXAogIC0tc3ViamVjdCAiV2Vla2x5IERpZ2VzdCIgXAogIC0taHRtbCAiPGgxPldlbGNvbWUhPC9oMT48cD5Zb3VyIHdlZWtseSBkaWdlc3QgaXMgaGVyZS48L3A+IiBcCiAgLS1vdXRwdXQgLi9lbWFpbHMvZGlnZXN0LmVtbApgYGAKCi0tLQoKIyMjIFdpdGggQXR0YWNobWVudHMKCmBgYGJhc2gKc3Vkb21haWwgY29tcG9zZSBcCiAgLS1mcm9tICJtZUBleGFtcGxlLmNvbSIgXAogIC0tdG8gImJvc3NAZXhhbXBsZS5jb20iIFwKICAtLXN1YmplY3QgIlJlcG9ydCBRNCIgXAogIC0tYm9keSAiUGxlYXNlIGZpbmQgdGhlIFE0IHJlcG9ydCBhdHRhY2hlZC4iIFwKICAtLWF0dGFjaCAuL2ZpbGVzL3JlcG9ydC5wZGYgXAogIC0tb3V0cHV0IC4vZW1haWxzL3JlcG9ydC5lbWwKYGBgCgotLS0KCiMjIyBVc2luZyBhIFRlbXBsYXRlCgpgYGBiYXNoCnN1ZG9tYWlsIHRlbXBsYXRlIC0tbGlzdAoKc3Vkb21haWwgdGVtcGxhdGUgLS11c2UgbmV3c2xldHRlciBcCiAgLS10byAidXNlckBleGFtcGxlLmNvbSIgXAogIC0tb3V0cHV0IC4vZW1haWxzL25ld3NsZXR0ZXIuZW1sCmBgYAoKLS0tCgojIyDwn5OCIFByb2plY3QgU3RydWN0dXJlCgpgYGAKU3Vkb01haWwvCuKUnOKUgOKUgCBiaW4vCuKUgiAgIOKUlOKUgOKUgCBzdWRvbWFpbC5qcyAgICAgICAgIyBDTEkgZW50cnkgcG9pbnQK4pSc4pSA4pSAIHNyYy8K4pSCICAg4pSc4pSA4pSAIGNvbXBvc2VyLmpzICAgICAgICAjIEVtYWlsIGNvbXBvc2l0aW9uIGxvZ2ljCuKUgiAgIOKUnOKUgOKUgCBnZW5lcmF0b3IuanMgICAgICAgIyAuZW1sIGZpbGUgZ2VuZXJhdG9yICYgTUlNRSBidWlsZGVyCuKUgiAgIOKUnOKUgOKUgCB0ZW1wbGF0ZXMuanMgICAgICAgIyBCdWlsdC1pbiBlbWFpbCB0ZW1wbGF0ZXMK4pSCICAg4pSU4pSA4pSAIHV0aWxzLmpzICAgICAgICAgICAjIEhlbHBlciB1dGlsaXRpZXMK4pSc4pSA4pSAIGV4YW1wbGVzLwrilIIgICDilJzilIDilIAgcGxhaW4uanMgICAgICAgICAgICMgRXhhbXBsZTogcGxhaW4gdGV4dCBlbWFpbArilIIgICDilJzilIDilIAgaHRtbC1lbWFpbC5qcyAgICAgICMgRXhhbXBsZTogSFRNTCBlbWFpbArilIIgICDilJTilIDilIAgd2l0aC1hdHRhY2htZW50LmpzICMgRXhhbXBsZTogZW1haWwgd2l0aCBhdHRhY2htZW50CuKUnOKUgOKUgCB0ZXN0LwrilIIgICDilJTilIDilIAgc3Vkb21haWwudGVzdC5qcyAgICMgVW5pdCB0ZXN0cwrilJzilIDilIAgcGFja2FnZS5qc29uCuKUnOKUgOKUgCAuZ2l0aWdub3JlCuKUlOKUgOKUgCBSRUFETUUubWQKYGBgCgotLS0KCiMjIPCfm6DvuI8gQ0xJIFJlZmVyZW5jZQoKYGBgClVzYWdlOiBzdWRvbWFpbCBbY29tbWFuZF0gW29wdGlvbnNdCgpDb21tYW5kczoKICBjb21wb3NlICAgICBDb21wb3NlIGFuZCBleHBvcnQgYSBuZXcgLmVtbCBmaWxlCiAgdGVtcGxhdGUgICAgTGlzdCBvciB1c2UgYnVpbHQtaW4gZW1haWwgdGVtcGxhdGVzCiAgaGVscCAgICAgICAgRGlzcGxheSBoZWxwIGluZm9ybWF0aW9uCgpPcHRpb25zIGZvciBgY29tcG9zZWA6CiAgLS1mcm9tICAgICAgPGVtYWlsPiAgIFNlbmRlciBlbWFpbCBhZGRyZXNzICAgICAgICAocmVxdWlyZWQpCiAgLS10byAgICAgICAgPGVtYWlsPiAgIFJlY2lwaWVudCBlbWFpbCBhZGRyZXNzICAgICAgKHJlcXVpcmVkLCByZXBlYXRhYmxlKQogIC0tY2MgICAgICAgIDxlbWFpbD4gICBDQyByZWNpcGllbnRzICAgICAgICAgICAgICAgKG9wdGlvbmFsLCByZXBlYXRhYmxlKQogIC0tYmNjICAgICAgIDxlbWFpbD4gICBCQ0MgcmVjaXBpZW50cyAgICAgICAgICAgICAgKG9wdGlvbmFsLCByZXBlYXRhYmxlKQogIC0tc3ViamVjdCAgIDx0ZXh0PiAgICBFbWFpbCBzdWJqZWN0IGxpbmUgICAgICAgICAgKHJlcXVpcmVkKQogIC0tYm9keSAgICAgIDx0ZXh0PiAgICBQbGFpbiB0ZXh0IGJvZHkgICAgICAgICAgICAgKG9wdGlvbmFsKQogIC0taHRtbCAgICAgIDxodG1sPiAgICBIVE1MIGJvZHkgY29udGVudCAgICAgICAgICAgKG9wdGlvbmFsKQogIC0tYXR0YWNoICAgIDxwYXRoPiAgICBQYXRoIHRvIGZpbGUgYXR0YWNobWVudCAgICAgKG9wdGlvbmFsLCByZXBlYXRhYmxlKQogIC0tb3V0cHV0ICAgIDxwYXRoPiAgICBPdXRwdXQgLmVtbCBmaWxlIHBhdGggICAgICAgKGRlZmF1bHQ6IC4vb3V0cHV0LmVtbCkKICAtLXRlbXBsYXRlICA8bmFtZT4gICAgVXNlIGEgYnVpbHQtaW4gdGVtcGxhdGUgICAgIChvcHRpb25hbCkKYGBgCgotLS0KCiMjIPCfk4QgRXhhbXBsZSBPdXRwdXQgKGAuZW1sYCkKCmBgYApGcm9tOiB5b3VAZXhhbXBsZS5jb20KVG86IGZyaWVuZEBleGFtcGxlLmNvbQpTdWJqZWN0OiBIZWxsbyBmcm9tIFN1ZG9NYWlsIQpEYXRlOiBNb24sIDA2IEFwciAyMDI2IDE5OjAwOjAwICswMDAwCk1lc3NhZ2UtSUQ6IDxhMWIyYzNkNC01Njc4LS4uLkBzdWRvbWFpbD4KTUlNRS1WZXJzaW9uOiAxLjAKQ29udGVudC1UeXBlOiB0ZXh0L3BsYWluOyBjaGFyc2V0PVVURi04CgpUaGlzIGVtYWlsIHdhcyBjcmVhdGVkIHdpdGggU3Vkb01haWwuCmBgYAoKLS0tCgojIyDwn6eqIFJ1bm5pbmcgVGVzdHMKCmBgYGJhc2gKbnBtIHRlc3QKYGBgCgotLS0KCiMjIPCfpJ0gQ29udHJpYnV0aW5nCgoxLiBGb3JrIHRoZSByZXBvCjIuIENyZWF0ZSB5b3VyIGZlYXR1cmUgYnJhbmNoOiBgZ2l0IGNoZWNrb3V0IC1iIGZlYXQvbXktZmVhdHVyZWAKMy4gQ29tbWl0IHlvdXIgY2hhbmdlczogYGdpdCBjb21taXQgLW0gImZlYXQ6IGFkZCBteSBmZWF0dXJlImAKNC4gUHVzaCB0byB0aGUgYnJhbmNoOiBgZ2l0IHB1c2ggb3JpZ2luIGZlYXQvbXktZmVhdHVyZWAKNS4gT3BlbiBhIFB1bGwgUmVxdWVzdCDwn5qACgotLS0KCiMjIPCfk5wgTGljZW5zZQoKTUlUIMKpIFtjaGFtYnRhaS1zeXNdKGh0dHBzOi8vZ2l0aHViLmNvbS9jaGFtYnRhaS1zeXMpCgotLS0KCjxkaXYgYWxpZ249ImNlbnRlciI+Ck1hZGUgd2l0aCDimJUgYW5kIGEgdGVybWluYWwgd2luZG93Lgo8L2Rpdj4K
+<div align="center">
+
+```
+ ____            _       __  __       _ _ 
+/ ___| _   _  __| | ___ |  \/  | __ _(_) |
+\___ \| | | |/ _` |/ _ \| |\/| |/ _` | | |
+ ___) | |_| | (_| | (_) | |  | | (_| | | |
+|____/ \__,_|\__,_|\___/|_|  |_|\__,_|_|_|
+```
+
+# SudoMail 📧
+
+**A powerful, developer-friendly CLI tool for creating and exporting `.eml` email files with full MIME support.**
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Node.js](https://img.shields.io/badge/Node.js-%3E%3D14.0.0-green.svg)](https://nodejs.org/)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](package.json)
+
+</div>
+
+---
+
+## ✨ What is SudoMail?
+
+SudoMail is a CLI tool that lets you **compose, craft, and export email files** (`.eml`) directly from your terminal — no mail server, no GUI, no hassle.
+
+Whether you're testing email rendering, archiving messages, generating email fixtures for your app, or just want a quick way to draft emails offline — **SudoMail has you covered**.
+
+---
+
+## 🚀 Features
+
+| Feature | Description |
+|---|---|
+| 📝 **Interactive Mode** | Step-by-step prompts guide you through composing an email |
+| ⚡ **Flags Mode** | Pass all fields as CLI flags for scripting and automation |
+| 🎨 **HTML Email Support** | Compose rich HTML emails with inline styles |
+| 📎 **Attachments** | Attach files using MIME base64 encoding |
+| 📋 **Templates** | Built-in templates: plain, html, newsletter, welcome |
+| 🔀 **CC / BCC** | Full support for multiple recipients, CC, and BCC |
+| 🗓️ **Auto Timestamp** | Automatically stamps the correct RFC 2822 date |
+| 🆔 **Message-ID** | Generates unique Message-IDs for every email |
+| 📁 **Custom Output** | Save to any path you choose |
+| 🧩 **Node.js API** | Use SudoMail programmatically in your own scripts |
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/chambtai-sys/SudoMail.git
+cd SudoMail
+
+# Install dependencies
+npm install
+
+# Link globally so the `sudomail` command works anywhere
+npm link
+```
+
+---
+
+## 🔧 Usage
+
+### Interactive Mode
+
+```bash
+sudomail
+```
+
+You'll be guided through each field step by step:
+
+```
+? From:    you@example.com
+? To:      friend@example.com
+? Subject: Hello from SudoMail!
+? Format:  Plain Text
+? Body:    Just testing out SudoMail!
+? Output:  ./output.eml
+
+✅  Email saved to: ./output.eml
+```
+
+---
+
+### Flags Mode (great for scripting & automation)
+
+```bash
+sudomail compose \
+  --from "you@example.com" \
+  --to "friend@example.com" \
+  --subject "Hello from SudoMail!" \
+  --body "This email was generated by SudoMail." \
+  --output ./emails/hello.eml
+```
+
+---
+
+### HTML Email
+
+```bash
+sudomail compose \
+  --from "newsletter@example.com" \
+  --to "subscriber@example.com" \
+  --subject "Weekly Digest" \
+  --html "<h1>Welcome!</h1><p>Your weekly digest is here.</p>" \
+  --output ./emails/digest.eml
+```
+
+---
+
+### With Attachments
+
+```bash
+sudomail compose \
+  --from "me@example.com" \
+  --to "boss@example.com" \
+  --subject "Q4 Report" \
+  --body "Please find the report attached." \
+  --attach ./files/report.pdf \
+  --output ./emails/report.eml
+```
+
+---
+
+### Templates
+
+```bash
+# List available templates
+sudomail template --list
+
+# Use a template
+sudomail template --use newsletter \
+  --from "news@example.com" \
+  --to "reader@example.com" \
+  --output ./emails/newsletter.eml
+```
+
+**Built-in templates:** `plain` · `html` · `newsletter` · `welcome`
+
+---
+
+### Programmatic API (Node.js)
+
+```js
+const sudomail = require('sudomail');
+
+// Create and save a .eml file
+sudomail.create({
+  from: 'me@example.com',
+  to: ['you@example.com'],
+  subject: 'Hello!',
+  body: 'This was created with the SudoMail API.',
+  output: './hello.eml',
+});
+
+// Generate raw .eml string (no file written)
+const emlString = sudomail.generate({
+  from: 'me@example.com',
+  to: ['you@example.com'],
+  subject: 'Raw EML',
+  html: '<h1>Hello World</h1>',
+});
+```
+
+---
+
+## 📂 Project Structure
+
+```
+SudoMail/
+├── bin/
+│   └── sudomail.js          # CLI entry point
+├── src/
+│   ├── index.js             # Programmatic API
+│   ├── composer.js          # Interactive wizard & composeEmail()
+│   ├── generator.js         # MIME .eml builder (plain / HTML / attachments)
+│   ├── templates.js         # Built-in email templates
+│   └── utils.js             # Helpers: Message-ID, date, validation
+├── examples/
+│   ├── plain.js             # Plain text email example
+│   ├── html-email.js        # HTML email example
+│   └── use-template.js      # Template usage example
+├── test/
+│   └── sudomail.test.js     # Unit tests
+├── package.json
+├── .gitignore
+├── LICENSE
+└── README.md
+```
+
+---
+
+## 🛠️ CLI Reference
+
+```
+Usage: sudomail [command] [options]
+
+Commands:
+  compose     Compose and export a new .eml file  (default)
+  template    List or use built-in templates
+  help        Show help
+
+Options for `compose`:
+  -f, --from <email>     Sender email address            (required)
+  -t, --to <email>       Recipient (repeat for multiple) (required)
+  -c, --cc <email>       CC (repeat for multiple)
+  -b, --bcc <email>      BCC (repeat for multiple)
+  -s, --subject <text>   Subject line                    (required)
+      --body <text>       Plain text body
+      --html <html>       HTML body content
+  -a, --attach <path>    Attachment file path (repeat for multiple)
+  -o, --output <path>    Output .eml path    (default: ./output.eml)
+      --template <name>   Use a built-in template
+```
+
+---
+
+## 📄 Example Output (`.eml`)
+
+```
+From: you@example.com
+To: friend@example.com
+Subject: Hello from SudoMail!
+Date: Mon, 06 Apr 2026 19:00:00 +0000
+Message-ID: <a1b2c3d4-uuid-here@sudomail>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+This email was created with SudoMail.
+```
+
+---
+
+## 🧪 Running Tests
+
+```bash
+npm test
+```
+
+No external test runner required — outputs results directly to the terminal.
+
+---
+
+## 🤝 Contributing
+
+1. Fork this repo
+2. Create a feature branch: `git checkout -b feat/my-feature`
+3. Commit your changes: `git commit -m "feat: add my feature"`
+4. Push: `git push origin feat/my-feature`
+5. Open a Pull Request 🚀
+
+---
+
+## 📜 License
+
+MIT © [chambtai-sys](https://github.com/chambtai-sys)
+
+---
+
+<div align="center">
+Made with ☕ and a terminal window.
+</div>
