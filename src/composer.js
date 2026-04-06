@@ -1,1 +1,89 @@
-LyoqCiAqIFN1ZG9NYWlsIOKAlCBjb21wb3Nlci5qcwogKiBJbnRlcmFjdGl2ZSBhbmQgcHJvZ3JhbW1hdGljIGVtYWlsIGNvbXBvc2l0aW9uCiAqLwoKY29uc3QgaW5xdWlyZXIgPSByZXF1aXJlKCdpbnF1aXJlcicpOwpjb25zdCB7IGlzVmFsaWRFbWFpbCwgcGFyc2VFbWFpbExpc3QgfSA9IHJlcXVpcmUoJy4vdXRpbHMnKTsKY29uc3QgeyBnZXRUZW1wbGF0ZSwgbGlzdFRlbXBsYXRlcyB9ID0gcmVxdWlyZSgnLi90ZW1wbGF0ZXMnKTsKY29uc3QgeyBnZW5lcmF0ZUVtbCwgd3JpdGVFbWwgfSA9IHJlcXVpcmUoJy4vZ2VuZXJhdG9yJyk7CgovKioKICogUnVuIHRoZSBpbnRlcmFjdGl2ZSBjb21wb3NpdGlvbiB3aXphcmQuCiAqIEByZXR1cm5zIHtQcm9taXNlPHZvaWQ+fQogKi8KYXN5bmMgZnVuY3Rpb24gaW50ZXJhY3RpdmVDb21wb3NlKCkgewogIGNvbnNvbGUubG9nKCdcbvCfk6cgIFdlbGNvbWUgdG8gU3Vkb01haWwg4oCUIEludGVyYWN0aXZlIENvbXBvc2UgTW9kZVxuJyk7CgogIGNvbnN0IGFuc3dlcnMgPSBhd2FpdCBpbnF1aXJlci5wcm9tcHQoWwogICAgewogICAgICB0eXBlOiAnaW5wdXQnLAogICAgICBuYW1lOiAnZnJvbScsCiAgICAgIG1lc3NhZ2U6ICdGcm9tIChzZW5kZXIgZW1haWwpOicsCiAgICAgIHZhbGlkYXRlOiB2ID0+IGlzVmFsaWRFbWFpbCh2KSB8fCAnUGxlYXNlIGVudGVyIGEgdmFsaWQgZW1haWwgYWRkcmVzcy4nLAogICAgfSwKICAgIHsKICAgICAgdHlwZTogJ2lucHV0JywKICAgICAgbmFtZTogJ3RvJywKICAgICAgbWVzc2FnZTogJ1RvIChyZWNpcGllbnQgZW1haWwsIGNvbW1hLXNlcGFyYXRlIG11bHRpcGxlKTonLAogICAgICB2YWxpZGF0ZTogdiA9PiB2LnRyaW0oKS5sZW5ndGggPiAwIHx8ICdBdCBsZWFzdCBvbmUgcmVjaXBpZW50IGlzIHJlcXVpcmVkLicsCiAgICB9LAogICAgewogICAgICB0eXBlOiAnaW5wdXQnLAogICAgICBuYW1lOiAnY2MnLAogICAgICBtZXNzYWdlOiAnQ0MgKG9wdGlvbmFsLCBjb21tYS1zZXBhcmF0ZSBtdWx0aXBsZSk6JywKICAgIH0sCiAgICB7CiAgICAgIHR5cGU6ICdpbnB1dCcsCiAgICAgIG5hbWU6ICdiY2MnLAogICAgICBtZXNzYWdlOiAnQkNDIChvcHRpb25hbCwgY29tbWEtc2VwYXJhdGUgbXVsdGlwbGUpOicsCiAgICB9LAogICAgewogICAgICB0eXBlOiAnaW5wdXQnLAogICAgICBuYW1lOiAnc3ViamVjdCcsCiAgICAgIG1lc3NhZ2U6ICdTdWJqZWN0OicsCiAgICAgIHZhbGlkYXRlOiB2ID0+IHYudHJpbSgpLmxlbmd0aCA+IDAgfHwgJ1N1YmplY3QgY2Fubm90IGJlIGVtcHR5LicsCiAgICB9LAogICAgewogICAgICB0eXBlOiAnbGlzdCcsCiAgICAgIG5hbWU6ICdmb3JtYXQnLAogICAgICBtZXNzYWdlOiAnRW1haWwgZm9ybWF0OicsCiAgICAgIGNob2ljZXM6IFsnUGxhaW4gVGV4dCcsICdIVE1MJywgJ1VzZSBUZW1wbGF0ZSddLAogICAgICBkZWZhdWx0OiAnUGxhaW4gVGV4dCcsCiAgICB9LAogICAgewogICAgICB0eXBlOiAnZWRpdG9yJywKICAgICAgbmFtZTogJ2JvZHknLAogICAgICBtZXNzYWdlOiAnUGxhaW4gdGV4dCBib2R5OicsCiAgICAgIHdoZW46IGFuc3dlcnMgPT4gYW5zd2Vycy5mb3JtYXQgIT09ICdVc2UgVGVtcGxhdGUnLAogICAgfSwKICAgIHsKICAgICAgdHlwZTogJ2VkaXRvcicsCiAgICAgIG5hbWU6ICdodG1sJywKICAgICAgbWVzc2FnZTogJ0hUTUwgYm9keTonLAogICAgICB3aGVuOiBhbnN3ZXJzID0+IGFuc3dlcnMuZm9ybWF0ID09PSAnSFRNTCcsCiAgICB9LAogICAgewogICAgICB0eXBlOiAnbGlzdCcsCiAgICAgIG5hbWU6ICd0ZW1wbGF0ZUtleScsCiAgICAgIG1lc3NhZ2U6ICdDaG9vc2UgYSB0ZW1wbGF0ZTonLAogICAgICBjaG9pY2VzOiBsaXN0VGVtcGxhdGVzKCkubWFwKHQgPT4gKHsgbmFtZTogYCR7dC5uYW1lfSDigJQgJHt0LmRlc2NyaXB0aW9ufWAsIHZhbHVlOiB0LmtleSB9KSksCiAgICAgIHdoZW46IGFuc3dlcnMgPT4gYW5zd2Vycy5mb3JtYXQgPT09ICdVc2UgVGVtcGxhdGUnLAogICAgfSwKICAgIHsKICAgICAgdHlwZTogJ2lucHV0JywKICAgICAgbmFtZTogJ2F0dGFjaCcsCiAgICAgIG1lc3NhZ2U6ICdBdHRhY2htZW50IHBhdGggKG9wdGlvbmFsLCBsZWF2ZSBibGFuayB0byBza2lwKTonLAogICAgfSwKICAgIHsKICAgICAgdHlwZTogJ2lucHV0JywKICAgICAgbmFtZTogJ291dHB1dCcsCiAgICAgIG1lc3NhZ2U6ICdPdXRwdXQgZmlsZSBwYXRoOicsCiAgICAgIGRlZmF1bHQ6ICcuL291dHB1dC5lbWwnLAogICAgfSwKICBdKTsKCiAgYXdhaXQgY29tcG9zZUVtYWlsKGFuc3dlcnMpOwp9CgovKioKICogQ29tcG9zZSBhbmQgd3JpdGUgYW4gZW1haWwgZnJvbSBvcHRpb25zIChpbnRlcmFjdGl2ZSBvciBmbGFncykuCiAqIEBwYXJhbSB7T2JqZWN0fSBvcHRzCiAqLwphc3luYyBmdW5jdGlvbiBjb21wb3NlRW1haWwob3B0cykgewogIGxldCB7IGZyb20sIHRvLCBjYywgYmNjLCBzdWJqZWN0LCBib2R5LCBodG1sLCB0ZW1wbGF0ZUtleSwgYXR0YWNoLCBvdXRwdXQgfSA9IG9wdHM7CgogIC8vIEFwcGx5IHRlbXBsYXRlIGlmIHNlbGVjdGVkCiAgaWYgKHRlbXBsYXRlS2V5KSB7CiAgICBjb25zdCB0bXBsID0gZ2V0VGVtcGxhdGUodGVtcGxhdGVLZXkpOwogICAgaWYgKHRtcGwpIHsKICAgICAgc3ViamVjdCA9IHN1YmplY3QgfHwgdG1wbC5zdWJqZWN0OwogICAgICBib2R5ID0gYm9keSB8fCB0bXBsLmJvZHk7CiAgICAgIGh0bWwgPSBodG1sIHx8IHRtcGwuaHRtbDsKICAgIH0KICB9CgogIC8vIFBhcnNlIGVtYWlsIGxpc3RzCiAgY29uc3QgdG9MaXN0ID0gcGFyc2VFbWFpbExpc3QoQXJyYXkuaXNBcnJheSh0bykgPyB0by5qb2luKCcsJykgOiB0byk7CiAgY29uc3QgY2NMaXN0ID0gcGFyc2VFbWFpbExpc3QoQXJyYXkuaXNBcnJheShjYykgPyBjYy5qb2luKCcsJykgOiBjYyk7CiAgY29uc3QgYmNjTGlzdCA9IHBhcnNlRW1haWxMaXN0KEFycmF5LmlzQXJyYXkoYmNjKSA/IGJjYy5qb2luKCcsJykgOiBiY2MpOwoKICAvLyBQYXJzZSBhdHRhY2htZW50cwogIGNvbnN0IGF0dGFjaExpc3QgPSBhdHRhY2gKICAgID8gKEFycmF5LmlzQXJyYXkoYXR0YWNoKSA/IGF0dGFjaCA6IFthdHRhY2hdKS5maWx0ZXIoQm9vbGVhbikKICAgIDogW107CgogIGNvbnN0IGVtbENvbnRlbnQgPSBnZW5lcmF0ZUVtbCh7CiAgICBmcm9tLAogICAgdG86IHRvTGlzdCwKICAgIGNjOiBjY0xpc3QsCiAgICBiY2M6IGJjY0xpc3QsCiAgICBzdWJqZWN0LAogICAgYm9keSwKICAgIGh0bWwsCiAgICBhdHRhY2g6IGF0dGFjaExpc3QubGVuZ3RoID4gMCA/IGF0dGFjaExpc3QgOiB1bmRlZmluZWQsCiAgfSk7CgogIGNvbnN0IG91dHB1dFBhdGggPSBvdXRwdXQgfHwgJy4vb3V0cHV0LmVtbCc7CiAgd3JpdGVFbWwoZW1sQ29udGVudCwgb3V0cHV0UGF0aCk7CgogIGNvbnNvbGUubG9nKGBcbuKchSAgRW1haWwgc2F2ZWQgdG86ICR7b3V0cHV0UGF0aH1gKTsKICBjb25zb2xlLmxvZyhgICAgRnJvbTogICAgJHtmcm9tfWApOwogIGNvbnNvbGUubG9nKGAgICBUbzogICAgICAke3RvTGlzdC5qb2luKCcsICcpfWApOwogIGlmIChjY0xpc3QubGVuZ3RoKSBjb25zb2xlLmxvZyhgICAgQ0M6ICAgICAgJHtjY0xpc3Quam9pbignLCAnKX1gKTsKICBpZiAoYmNjTGlzdC5sZW5ndGgpIGNvbnNvbGUubG9nKGAgICBCQ0M6ICAgICAke2JjY0xpc3Quam9pbignLCAnKX1gKTsKICBjb25zb2xlLmxvZyhgICAgU3ViamVjdDogJHtzdWJqZWN0fWApOwogIGlmIChhdHRhY2hMaXN0Lmxlbmd0aCkgY29uc29sZS5sb2coYCAgIEF0dGFjaG1lbnRzOiAke2F0dGFjaExpc3QubGVuZ3RofSBmaWxlKHMpYCk7CiAgY29uc29sZS5sb2coKTsKfQoKbW9kdWxlLmV4cG9ydHMgPSB7IGludGVyYWN0aXZlQ29tcG9zZSwgY29tcG9zZUVtYWlsIH07Cg==
+/**
+ * SudoMail — composer.js
+ * Interactive and programmatic email composition
+ */
+
+const inquirer = require('inquirer');
+const { isValidEmail, parseEmailList } = require('./utils');
+const { getTemplate, listTemplates } = require('./templates');
+const { generateEml, writeEml } = require('./generator');
+
+async function interactiveCompose() {
+  console.log('\n📧  Welcome to SudoMail — Interactive Compose Mode\n');
+
+  const answers = await inquirer.prompt([
+    {
+      type: 'input', name: 'from', message: 'From (sender email):',
+      validate: v => isValidEmail(v) || 'Please enter a valid email address.',
+    },
+    {
+      type: 'input', name: 'to', message: 'To (recipient, comma-separate multiple):',
+      validate: v => v.trim().length > 0 || 'At least one recipient is required.',
+    },
+    { type: 'input', name: 'cc',  message: 'CC (optional):' },
+    { type: 'input', name: 'bcc', message: 'BCC (optional):' },
+    {
+      type: 'input', name: 'subject', message: 'Subject:',
+      validate: v => v.trim().length > 0 || 'Subject cannot be empty.',
+    },
+    {
+      type: 'list', name: 'format', message: 'Email format:',
+      choices: ['Plain Text', 'HTML', 'Use Template'], default: 'Plain Text',
+    },
+    {
+      type: 'editor', name: 'body', message: 'Plain text body:',
+      when: a => a.format !== 'Use Template',
+    },
+    {
+      type: 'editor', name: 'html', message: 'HTML body:',
+      when: a => a.format === 'HTML',
+    },
+    {
+      type: 'list', name: 'templateKey', message: 'Choose a template:',
+      choices: listTemplates().map(t => ({ name: `${t.name} — ${t.description}`, value: t.key })),
+      when: a => a.format === 'Use Template',
+    },
+    { type: 'input', name: 'attach', message: 'Attachment path (optional):' },
+    { type: 'input', name: 'output', message: 'Output file path:', default: './output.eml' },
+  ]);
+
+  await composeEmail(answers);
+}
+
+async function composeEmail(opts) {
+  let { from, to, cc, bcc, subject, body, html, templateKey, attach, output } = opts;
+
+  if (templateKey) {
+    const tmpl = getTemplate(templateKey);
+    if (tmpl) {
+      subject = subject || tmpl.subject;
+      body    = body    || tmpl.body;
+      html    = html    || tmpl.html;
+    }
+  }
+
+  const toList  = parseEmailList(Array.isArray(to)  ? to.join(',')  : to);
+  const ccList  = parseEmailList(Array.isArray(cc)  ? cc.join(',')  : cc);
+  const bccList = parseEmailList(Array.isArray(bcc) ? bcc.join(',') : bcc);
+  const attachList = attach ? (Array.isArray(attach) ? attach : [attach]).filter(Boolean) : [];
+
+  const emlContent = generateEml({
+    from, to: toList, cc: ccList, bcc: bccList,
+    subject, body, html,
+    attach: attachList.length > 0 ? attachList : undefined,
+  });
+
+  const outputPath = output || './output.eml';
+  writeEml(emlContent, outputPath);
+
+  console.log(`\n✅  Email saved to: ${outputPath}`);
+  console.log(`   From:    ${from}`);
+  console.log(`   To:      ${toList.join(', ')}`);
+  if (ccList.length)    console.log(`   CC:      ${ccList.join(', ')}`);
+  if (bccList.length)   console.log(`   BCC:     ${bccList.join(', ')}`);
+  console.log(`   Subject: ${subject}`);
+  if (attachList.length) console.log(`   Attachments: ${attachList.length} file(s)`);
+  console.log();
+}
+
+module.exports = { interactiveCompose, composeEmail };
