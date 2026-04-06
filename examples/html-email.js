@@ -1,1 +1,35 @@
-LyoqCiAqIFN1ZG9NYWlsIEV4YW1wbGUg4oCUIEhUTUwgRW1haWwKICogUnVuOiBub2RlIGV4YW1wbGVzL2h0bWwtZW1haWwuanMKICovCgpjb25zdCBzdWRvbWFpbCA9IHJlcXVpcmUoJy4uL3NyYy9pbmRleCcpOwoKY29uc3Qgb3V0cHV0ID0gc3Vkb21haWwuY3JlYXRlKHsKICBmcm9tOiAnaGVsbG9AbXlhcHAuY29tJywKICB0bzogWyd1c2VyQGV4YW1wbGUuY29tJ10sCiAgc3ViamVjdDogJ/CfjokgV2VsY29tZSB0byBNeUFwcCEnLAogIGJvZHk6ICdXZWxjb21lIHRvIE15QXBwISBQbGVhc2UgdmlldyB0aGlzIGVtYWlsIGluIGFuIEhUTUwtY2FwYWJsZSBjbGllbnQuJywKICBodG1sOiBgPCFET0NUWVBFIGh0bWw+CjxodG1sPgo8aGVhZD4KICA8bWV0YSBjaGFyc2V0PSJVVEYtOCI+CiAgPHN0eWxlPgogICAgYm9keSB7IGZvbnQtZmFtaWx5OiBBcmlhbCwgc2Fucy1zZXJpZjsgYmFja2dyb3VuZDogI2YwZjRmODsgcGFkZGluZzogNDBweDsgfQogICAgLmNhcmQgeyBtYXgtd2lkdGg6IDU2MHB4OyBtYXJnaW46IGF1dG87IGJhY2tncm91bmQ6ICNmZmY7IGJvcmRlci1yYWRpdXM6IDEwcHg7IHBhZGRpbmc6IDQwcHg7IH0KICAgIGgxIHsgY29sb3I6ICMyZDM3NDg7IH0KICAgIC5idG4geyBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7IHBhZGRpbmc6IDEycHggMjhweDsgYmFja2dyb3VuZDogIzQyOTllMTsgY29sb3I6ICNmZmY7IGJvcmRlci1yYWRpdXM6IDZweDsgdGV4dC1kZWNvcmF0aW9uOiBub25lOyB9CiAgPC9zdHlsZT4KPC9oZWFkPgo8Ym9keT4KICA8ZGl2IGNsYXNzPSJjYXJkIj4KICAgIDxoMT5XZWxjb21lIHRvIE15QXBwISDwn46JPC9oMT4KICAgIDxwPllvdXIgYWNjb3VudCBoYXMgYmVlbiBjcmVhdGVkLiBDbGljayBiZWxvdyB0byBnZXQgc3RhcnRlZC48L3A+CiAgICA8YSBocmVmPSJodHRwczovL215YXBwLmNvbS9kYXNoYm9hcmQiIGNsYXNzPSJidG4iPkdvIHRvIERhc2hib2FyZDwvYT4KICA8L2Rpdj4KPC9ib2R5Pgo8L2h0bWw+YCwKICBvdXRwdXQ6ICcuL2V4YW1wbGVzL291dHB1dC9odG1sLWV4YW1wbGUuZW1sJywKfSk7Cgpjb25zb2xlLmxvZyhg4pyFIENyZWF0ZWQ6ICR7b3V0cHV0fWApOwo=
+/**
+ * SudoMail Example — HTML Email
+ * Run: node examples/html-email.js
+ */
+
+const sudomail = require('../src/index');
+
+const output = sudomail.create({
+  from: 'hello@myapp.com',
+  to: ['user@example.com'],
+  subject: '🎉 Welcome to MyApp!',
+  body: 'Welcome to MyApp! Please view this email in an HTML-capable client.',
+  html: `<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { font-family: Arial, sans-serif; background: #f0f4f8; padding: 40px; }
+    .card { max-width: 560px; margin: auto; background: #fff; border-radius: 10px; padding: 40px; }
+    h1 { color: #2d3748; }
+    .btn { display: inline-block; padding: 12px 28px; background: #4299e1; color: #fff; border-radius: 6px; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Welcome to MyApp! 🎉</h1>
+    <p>Your account has been created. Click below to get started.</p>
+    <a href="https://myapp.com/dashboard" class="btn">Go to Dashboard</a>
+  </div>
+</body>
+</html>`,
+  output: './examples/output/html-example.eml',
+});
+
+console.log(`✅ Created: ${output}`);
